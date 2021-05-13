@@ -11,11 +11,6 @@ h1 {
     font-size: 2.5em;
 }
 
-.whole-page {
-    margin: 0;
-    padding: 0;
-}
-
 .square {
     width: 200px;
     height: 200px;
@@ -45,7 +40,7 @@ h1 {
     align-content: center;
     background-color: #35d427;
     margin: 0;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
 }
 
 .grid {
@@ -72,14 +67,6 @@ h1 {
     background-size: cover;
 }
 
-footer {
-    background-color: #35d427;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1%;
-}
-
 @media screen and (max-width: 680px) {
     .square {
         width:30%;
@@ -100,11 +87,4 @@ footer {
         
     }
 
-    footer {
-        background-color: #35d427;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 10%;
-    }
 }
