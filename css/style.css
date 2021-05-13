@@ -61,14 +61,14 @@ h1 {
 }
 
 .square {
-    background-image: url('/images/moleHoles.png');
+    background-image: url('../images/moleHoles.png');
     background-size: cover;
     width:30%;
     height: 30%;
 }
 
 .mole {
-    background-image: url('/images/moleymoley.png');
+    background-image: url('../images/moleymoley.png');
     background-size: cover;
 }
 
