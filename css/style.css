@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(0, 174, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 2.5em;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.blue-sky {
+    background-color: rgb(0, 174, 255);
+    margin: 0;
+    width: 100%;
+}
+
+.game-text {
+    text-align: center;
+}
+
+#reset {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.grassy-area {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #35d427;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.grid {
+    background-color: #9e5b20;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.square {
+    background-image: url('/images/moleHoles.png');
+    background-size: cover;
+    width:30%;
+    height: 30%;
+}
+
+.mole {
+    background-image: url('/images/moleymoley.png');
+    background-size: cover;
+}
+
+footer {
+    background-color: #35d427;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1%;
+}
+
+@media screen and (max-width: 680px) {
+    .square {
+        width:30%;
+        height: 30%;
+        
+    }
+
+    .grid {
+        background-color: #9e5b20;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        width: 309px;
+        height: 309px;
+        
+    }
+
+    footer {
+        background-color: #35d427;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+    }
+}
