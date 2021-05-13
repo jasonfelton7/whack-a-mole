@@ -29,10 +29,14 @@ h1 {
 }
 
 #reset {
-    padding: 5px;
+    padding:  7px 20px;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
     border-radius: 5px;
     margin-bottom: 3px;
-    background-color: #ffffff;
+    background-color: #dbd68f;
 }
 
 .grassy-area {
