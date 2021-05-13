@@ -43,6 +43,7 @@ function countDown() {
         clearInterval(timerId);
         gameResult.textContent = 'GAME OVER! Your final score is ' + result;
         score.textContent = '-';
+        result = 0;
     }
 }
 
