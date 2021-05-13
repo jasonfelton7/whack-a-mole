@@ -31,7 +31,8 @@ h1 {
 #reset {
     padding: 5px;
     border-radius: 5px;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
+    background-color: #ffffff;
 }
 
 .grassy-area {
